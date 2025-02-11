@@ -3,7 +3,7 @@ import { Stack } from "@mui/material";
 
 import { categories } from "../utils/constants";
 
-const Categories = ({ selectedCategory, setSelectedCategory }) => (
+const Categories = ({ selectedCategoryi, setSelectedCategory }) => (
   <Stack
     direction="row"
     sx={{
